@@ -21,4 +21,18 @@ This AI-powered system enhances institutional inspections by automating evaluati
 Ensure you have Python installed, then install dependencies using:
 
 ```sh
-pip install .txt
+pip install -r requirements.txt
+
+
+Running the Application
+Run the following command to start the Streamlit app:
+streamlit run AI_inspection.py
+
+Dataset
+The dataset (institution_inspection_data.csv) includes institutional inspection records with attributes such as infrastructure scores, faculty ratings, student performance scores, and compliance levels.
+
+Usage
+> Upload inspection data or use the preloaded dataset.
+> Filter by institution type, date range, and compliance level.
+> View AI-generated insights through dashboards and charts.
+> Use machine learning predictions to assess institutional compliance.
